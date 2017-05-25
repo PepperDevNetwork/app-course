@@ -1,0 +1,15 @@
+topic: ~interaction()
+language: jpj
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+u:(e:Barker/Dialog/Start $Barker/Dialog/Start==200) 。
+    u1:([おどって おどる ダンス ダンスして　踊れ おどれ 踊って 踊る Dance]) $Tablet/ButtonTouch=101
