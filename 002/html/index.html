@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="initial-scale = 1.335,
+           minimum-scale = 1.335,
+           maximum-scale = 1.335" />
+    <title>Sample Project</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+    <article id="page-splash" class="page active"></article>
+
+    <article id="page-quiz" class="page">
+        <div class="btn" data-btn-id="101">WHITE</div>
+        <div class="btn" data-btn-id="102">POCHI</div>
+        <div class="btn" data-btn-id="103">TARO</div>
+        <div class="btn" data-btn-id="104">NAO2</div>
+        <section id="message-correct" class="message">
+            <img src="images/text_correct.png" />
+        </section>
+        <section id="message-incorrect" class="message">
+            <<img src="images/text_incorrect.png" />
+        </section>
+    </article>
+
+    <article id="filter" class="page"></article>
+
+    <script src="/libs/qimessaging/1.0/jquery.min.js" type="application/javascript"></script>
+    <script src="/libs/qimessaging/1.0/socket.io.min.js" type="application/javascript"></script>
+    <script src="/libs/qimessaging/1.0/qimessaging.js" type="application/javascript"></script>
+
+    <script src="js/jquery.qimhelpers.js" type="application/javascript"></script>
+    <script src="js/adjust.js" type="application/javascript"></script>
+
+    <script src="js/jquery.audioplayer.js" type="application/javascript"></script>
+    <script src="js/jquery.viewer.js" type="application/javascript"></script>
+    <script src="js/app.js" type="application/javascript"></script>
+
+</body>
+</html>

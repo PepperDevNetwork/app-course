@@ -1,0 +1,17 @@
+topic: ~interaction()
+language: jpj
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+u:(e:ComSoftbankrobotics/SampleProject/Dialog/Start $ComSoftbankrobotics/SampleProject/Dialog/Start==100) 。
+    u1:([血液]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=101 
+    u1:([はちみつレモン]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=102
+    u1:([ポカリスエット]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=103
+    u1:([砂糖水]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=104

@@ -1,0 +1,5 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 30
+dialog       : 1
