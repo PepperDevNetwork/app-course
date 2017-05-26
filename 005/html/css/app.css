@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+}
+
+/* ボタン */
+.btn {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:relative;
+    width: 550px;
+    height: 310px;
+    line-height: 310px;
+    text-align: center;
+    font-size: 64px;
+    float: left;
+    margin: 60px 0 0 60px;
+    background: #fff;
+    color: #808080;
+    border-radius: 30px;
+    border: 3px solid #000;
+}
+
+.btn.touched {
+    background: #bbb;
+}
+
+.btn.selected{
+    background: #888;
+    color: #fff;
+}
+
+.message img{
+    height: 300px;
+    margin-top: 250px;
+}
+
+.page {
+    background-image:url(../images/preloads/bg_common.png);
+    height: 800px;
+    line-height: 800px;
+    text-align:center;
+}
+
+/* スプラッシュ画面 */
+#PageSplash{
+    background-image:url(../images/preloads/bg_splash.png);
+}
+
