@@ -11,7 +11,7 @@ language: jpj
 #u:(~hello) ~hello
 
 u:(e:ComSoftbankrobotics/SampleProject/Dialog/Start $ComSoftbankrobotics/SampleProject/Dialog/Start==100) 。
-    u1:([血液]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=101 
-    u1:([はちみつレモン]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=102
-    u1:([ポカリスエット]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=103
-    u1:([砂糖水]) $ComSoftbankrobotics/SampleProject/Tablet/ButtonTouch=104
+    u1:([ホワイト]) $Tapper/View/ButtonSelect=101 
+    u1:([ポチ]) $Tapper/View/ButtonSelect=102
+    u1:([たろう]) $Tapper/View/ButtonSelect=103
+    u1:([なおつー なおに]) $Tapper/View/ButtonSelect=104
