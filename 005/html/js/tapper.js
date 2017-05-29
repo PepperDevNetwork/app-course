@@ -24,8 +24,10 @@ Tapper.core = function ($) {
                 console.log($('<img>').attr('src', 'images/preloads/' + src));
             });
             Tapper.utl.raiseEvent("ComSoftbankrobotics/SampleProject/Tablet/Initialized", 1);
+            Tapper.view.changeScene('{"id":"PageSplash"}');
         }, function (data) {
             Tapper.utl.raiseEvent("ComSoftbankrobotics/SampleProject/Tablet/Initialized", 1);
+            Tapper.view.changeScene('{"id":"PageSplash"}');
         });
     };
 
@@ -56,7 +58,6 @@ Tapper.core = function ($) {
         
             get_service('ALMemory');
             get_service('ALAudioPlayer');
-            get_service('ALVideoDevice');
         }, null, Tapper_Debug ? Tapper_Debug_Host : null);
     };
 
