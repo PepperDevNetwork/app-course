@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="samplecamerapreview-705ef5" version="0.0.0">
+ <names>
+  <name lang="en_US">SampleCameraPreview</name>
+ </names>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent topicName="" typeVersion="1.0"/>
+ </contents>
+</package>
