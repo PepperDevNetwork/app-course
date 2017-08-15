@@ -1,0 +1,12 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 60
+dialog       : 1
+
+[watoson]
+username     : WATOSON_USER_NAME
+password     : WATOSON_PASSWORD
+
+[azure]
+key          : AZURE_ACCESS_KEY
