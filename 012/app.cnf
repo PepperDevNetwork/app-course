@@ -1,0 +1,12 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 40
+dialog       : 1
+
+[iremocon]
+ip           : 192.168.1.38
+port         : 51013
+timeout      : 60
+
+

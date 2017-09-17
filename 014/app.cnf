@@ -1,0 +1,9 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 60
+dialog       : 1
+
+[hue]
+devicetype   : pepperrobot
+

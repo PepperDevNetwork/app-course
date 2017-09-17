@@ -1,0 +1,10 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 40
+dialog       : 1
+
+[wemo]
+count        : 1
+name_01      : WeMoSwitch01
+
