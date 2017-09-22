@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="text_cast">Castボタンをタップして、連携するGoogleCastを選択してください。連携するGoogleCastは開発用端末としての登録とスマホとの接続が完了している必要があります。</string>
+    <string name="text_ip">連携するPepperのIPアドレスを入力して、開始ボタンを押してください。</string>
+    <string name="hint_ip">IPアドレス</string>
+    <string name="btn_start">接続</string>
+    <string name="btn_stop">終了</string>
+    <string name="toast_success">Pepperとの接続に成功しました。</string>
+    <string name="app_id">0E8C9AC4</string>
+    <string name="media_route_menu_title">接続中</string>
+</resources>

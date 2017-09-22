@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\GitHub\\app-course\\account-manager-example\\app\\build\\intermediates\\res\\merged\\debug\\xml\\authenticator.xml",
+        "source": "D:\\GitHub\\app-course\\account-manager-example\\app\\src\\main\\res\\xml\\authenticator.xml"
+    },
+    {
+        "merged": "D:\\GitHub\\app-course\\account-manager-example\\app\\build\\intermediates\\res\\merged\\debug\\xml\\syncadapter.xml",
+        "source": "D:\\GitHub\\app-course\\account-manager-example\\app\\src\\main\\res\\xml\\syncadapter.xml"
+    },
+    {
+        "merged": "D:\\GitHub\\app-course\\account-manager-example\\app\\build\\intermediates\\res\\merged\\debug\\xml\\contacts.xml",
+        "source": "D:\\GitHub\\app-course\\account-manager-example\\app\\src\\main\\res\\xml\\contacts.xml"
+    }
+]

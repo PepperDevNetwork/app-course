@@ -1,0 +1,11 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 40
+dialog       : 1
+
+[movie]
+movie_001    : http://mazwai.com/system/posts/videos/000/000/170/original/tom_poederbach--las_vegas_blvd_copy_for_vimeo_by_philip_bloom.mp4?1429600066
+movietime_001: 60
+movie_002    : http://mazwai.com/system/posts/videos/000/000/193/original/la-chute-delaney.mp4?1445793140
+movietime_002: 120

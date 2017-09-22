@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="ttts" version="0.0.0">
+ <names>
+  <name lang="en_US">SampleService</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents/>
+ <services>
+  <service autorun="true" execStart="/usr/bin/python services/sampleservice.py" name="SampleService"/>
+ </services>
+</package>

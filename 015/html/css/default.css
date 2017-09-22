@@ -1,0 +1,46 @@
+.page {
+    width: 1280px;
+    height: 800px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    display: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active {
+    display: block !important;
+}
+
+.message {
+    width: 1280px;
+    height: 800px;
+    position: fixed;
+    top: 0;
+
+    background-repeat: no-repeat;
+    display: none;
+
+    z-index: 300;
+}
+
+#filter {
+    width: 1280px;
+    height: 800px;
+
+    z-index: 500;
+    opacity: 0.0;
+
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+
+    display: none;
+}
+
+body {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+}

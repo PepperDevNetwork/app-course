@@ -1,0 +1,84 @@
+body {
+    background-color: #000;
+}
+
+/* ボタン */
+.btn {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:relative;
+    height: 100px;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 64px;
+    background: #fff;
+    color: #808080;
+    border-radius: 15px;
+    border: 3px solid #000;
+}
+
+.btn.touched {
+    background: #bbb;
+}
+
+.btn.selected{
+    background: #888;
+    color: #fff;
+}
+
+
+.page {
+    background-image:url(../images/preloads/bg_common.png);
+    height: 800px;
+    text-align:center;
+}
+
+/* スプラッシュ画面 */
+#PageSplash{
+    background-image:url(../images/preloads/bg_splash.png);
+}
+
+#recognize-text{
+    width: 1100px;
+    padding: 50px;
+    margin: 0 auto;
+    height: 474px;
+    font-size: 64px;
+    background: #fff;
+    color: #808080;
+    border-radius: 30px;
+    border: 3px solid #000;
+    overflow: hidden;
+}
+
+#recognize-text li {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.page-header{
+    height: 100px;
+    padding: 40px;
+}
+
+.page-header .btn{
+    float: right;
+}
+
+#recognize-status{
+    position:absolute;
+    height: 100px;
+    padding: 0 20px;
+    line-height: 100px;
+    text-align: left;
+    font-size: 64px;
+    color: #ff0000;
+    float: left;
+    background: #ff6666;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 3px solid #ff0000;
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="annotations-android-10">
+    <CLASSES>
+      <root url="jar://C:/tools/Android/tools/support/annotations.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

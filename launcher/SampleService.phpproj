@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>SampleService</Name>
+    <ProjectGuid>{a10c66bc-0339-4ccc-af9e-2695f4a3a9c5}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="manifest.xml" />
+    <Compile Include="SampleService.pml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="html\audio\" />
+    <Folder Include="html\css\" />
+    <Folder Include="html\img\" />
+    <Folder Include="html\js\" />
+    <Folder Include="libs\" />
+    <Folder Include="libs\requests\" />
+    <Folder Include="html\" />
+    <Folder Include="services\" />
+    <Folder Include="services\" />
+    <Folder Include="translations" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="html\audio\bgm.ogg" />
+    <Content Include="html\audio\se_btn_touched.ogg" />
+    <Content Include="html\audio\se_quiz_failure.ogg" />
+    <Content Include="html\audio\se_quiz_start.ogg" />
+    <Content Include="html\audio\se_quiz_success.ogg" />
+    <Content Include="html\audio\se_recognize_end.ogg" />
+    <Content Include="html\audio\se_recognize_start.ogg" />
+    <Content Include="html\css\app.css" />
+    <Content Include="html\css\bootstrap-responsive.css" />
+    <Content Include="html\css\bootstrap-responsive.min.css" />
+    <Content Include="html\css\bootstrap.css" />
+    <Content Include="html\css\bootstrap.min.css" />
+    <Content Include="html\css\default.css" />
+    <Content Include="html\css\reset.css" />
+    <Content Include="html\img\glyphicons-halflings-white.png" />
+    <Content Include="html\img\glyphicons-halflings.png" />
+    <Content Include="html\index.html" />
+    <Content Include="html\js\adjust.js" />
+    <Content Include="html\js\bootstrap.js" />
+    <Content Include="html\js\bootstrap.min.js" />
+    <Content Include="html\js\contents.js" />
+    <Content Include="html\js\tapper.js" />
+    <Content Include="html\js\tapper_audio.js" />
+    <Content Include="libs\requests\adapters.py" />
+    <Content Include="libs\requests\api.py" />
+    <Content Include="libs\requests\auth.py" />
+    <Content Include="libs\requests\certs.py" />
+    <Content Include="libs\requests\compat.py" />
+    <Content Include="libs\requests\cookies.py" />
+    <Content Include="libs\requests\exceptions.py" />
+    <Content Include="libs\requests\help.py" />
+    <Content Include="libs\requests\hooks.py" />
+    <Content Include="libs\requests\models.py" />
+    <Content Include="libs\requests\packages.py" />
+    <Content Include="libs\requests\sessions.py" />
+    <Content Include="libs\requests\status_codes.py" />
+    <Content Include="libs\requests\structures.py" />
+    <Content Include="libs\requests\utils.py" />
+    <Content Include="libs\requests\_internal_utils.py" />
+    <Content Include="libs\requests\__init__.py" />
+    <Content Include="libs\requests\__version__.py" />
+    <Content Include="services\sampleservice.py" />
+  </ItemGroup>
+</Project>
