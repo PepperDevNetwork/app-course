@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\GitHub\app-course\account-manager-example\app\src\main\assets"/><source path="D:\GitHub\app-course\account-manager-example\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\GitHub\app-course\account-manager-example\app\src\debug\assets"/></dataSet></merger>

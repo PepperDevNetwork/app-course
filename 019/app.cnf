@@ -1,0 +1,8 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 60
+dialog       : 1
+
+[slack]
+token     : xoxp-239697291029-239615607444-244849414471-06cb8283e14616fae97ecf81b4107336

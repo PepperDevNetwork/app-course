@@ -1,0 +1,106 @@
+body {
+    background-color: #000;
+}
+
+/* ボタン */
+.btn {
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:relative;
+    height: 100px;
+    width: 200px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 64px;
+    background: #fff;
+    color: #808080;
+    border-radius: 15px;
+    border: 3px solid #000;
+}
+
+.btn.touched {
+    background: #bbb;
+}
+
+.btn.selected{
+    background: #888;
+    color: #fff;
+}
+
+
+.page {
+    background-image:url(../images/preloads/bg_common.png);
+    height: 800px;
+    text-align:center;
+}
+
+/* スプラッシュ画面 */
+#PageSplash{
+    background-image:url(../images/preloads/bg_splash.png);
+}
+
+.page-header{
+    height: 100px;
+    padding: 40px;
+}
+
+.btn{
+    margin:9px;
+    padding:0 10px;
+    font-size: 60px;
+    height: 80px;
+    line-height: 80px;
+    text-align:center;
+    border-radius: 5px;
+}
+
+.page-content{
+    width:100%;
+}
+
+.page-header .btn{
+    float: right;
+}
+
+#preview{
+    position:absolute;
+    transform: scale(-4, 4);
+    -webkit-transform: scale(-4, 4);
+    left: 250px;
+    top: 190px;
+}
+
+#image-source{
+    width: 480px;
+}
+
+.frame-source{
+    position: absolute;
+    width: 480px;
+    right: 20px;
+    overflow:hidden;
+}
+
+#text-vision-result {
+    position:absolute;
+    background: #fff;
+    top: 326px;
+    width: 456px;
+    right: 20px;
+    height: 240px;
+    border: solid 2px #000;
+    overflow:scroll;
+    text-align:left;
+    font-size:32px;
+    padding: 10px;
+}
+
+.frame{
+    display:none;
+    background:#f00;
+    width: 660px;
+    height: 500px;
+    position: absolute;
+    left: 20px;
+}

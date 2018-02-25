@@ -77,4 +77,7 @@
         <Topic name="interaction_jpj" src="dialog/interaction/interaction_jpj.top" topicName="interaction" language="ja_JP" />
     </Topics>
     <IgnoredPaths />
+    <Translations auto-fill="ja_JP">
+        <Translation name="translation_ja_JP" src="translations/translation_ja_JP.ts" language="ja_JP" />
+    </Translations>
 </Package>
