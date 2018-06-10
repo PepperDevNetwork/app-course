@@ -1,21 +1,29 @@
 # app-course
-このRepositoryでは、ロボアプリ動画サイト「Pepper Developer Network」に登場するサンプルアプリのソースコードを公開しています。
 
-[Pepper Developer Network]
-
-https://www.youtube.com/c/PepperDeveloperNetwork
-
-
-[注意点]
-
-・パスの問題
-
+<div>
+<h2>このRepositoryについて</h2>
+<p>ロボアプリ動画サイト「Pepper Developer Network」に登場するサンプルアプリのソースコードを公開しています。</p>
+<b>[Pepper Developer Network]</b><br />
+https://www.youtube.com/c/PepperDeveloperNetwork<br/>
+</div>
+<div>
+<h2>注意点</h2>
+<h3>パスの問題</h3>
+<p>
 各動画とサンプルコードの対応を分かりやすくするため、ディレクトリ名に日本語使用しております。
 実際に動かす際、パスに日本語が含まれていると正しく動作しない場合がありますので、
 適宜アルファベットなどに置き換えてお試しください。
-
-
-・APIキー
-
+</p>
+<h3>APIキー</h3>
+<p>
 サンプルコードによってはAPIキーを設定しないと動作しないものがあります。
 適宜APIキーの取得設定をおこないお試しください。
+</p>
+</div>
+
+<div>
+<h2>免責</h2>
+<p>
+掲載された情報の内容の正確性については一切保証しません。また、当サイトに掲載された情報・資料を利用、使用、ダウンロードするなどの行為に関連して生じたあらゆる損害等についても、理由の如何に関わらず、一切責任を負いません。
+</p>
+</div>
