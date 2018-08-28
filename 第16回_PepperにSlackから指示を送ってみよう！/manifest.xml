@@ -16,6 +16,6 @@
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
-  <dialogContent topicName="" typeVersion="1.0"/>
+  <dialogContent typeVersion="1.0" topicName=""/>
  </contents>
 </package>

@@ -229,6 +229,8 @@
         <File name="WHEEL" src="libs/six-1.11.0.dist-info/WHEEL" />
         <File name="metadata" src="libs/six-1.11.0.dist-info/metadata.json" />
         <File name="top_level" src="libs/six-1.11.0.dist-info/top_level.txt" />
+        <File name="" src=".vs/Sample/v14/.suo" />
+        <File name="applicationhost" src=".vs/config/applicationhost.config" />
     </Resources>
     <Topics>
         <Topic name="interaction_jpj" src="dialog/interaction/interaction_jpj.top" topicName="interaction" language="ja_JP" />
