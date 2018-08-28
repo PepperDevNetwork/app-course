@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="initial-scale = 1.335,
+           minimum-scale = 1.335,
+           maximum-scale = 1.335" />
+    <title>Sample Project</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+    <section id="PageSplash" class="page"></section>
+    <section id="PageWaiting" class="page">
+        <div class="btn" data-btn-id="101">ツイートする</div>
+    </section>
+
+
+    <section id="PagePreview" class="page">
+        <div class="page-content" style="position:absolute;">
+            <canvas id="preview" width="160" height="120"></canvas>
+        </div>
+  
+    </section>
+
+    <section id="PageHashTag" class="page">
+        <div>
+            #ロボアプリパートナーオフ会
+        </div>
+
+    </section>
+
+    <section id="filter" class="page"></section>
+
+    <script src="/libs/qimessaging/2/qimessaging.js"></script>
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="js/adjust.js"></script>
+
+    <script src="js/tapper.js"></script>
+    <script src="js/tapper_audio.js"></script>
+    <script src="js/tapper_preview.js"></script>
+    <script src="js/contents.js"></script>
+
+</body>
+</html>
