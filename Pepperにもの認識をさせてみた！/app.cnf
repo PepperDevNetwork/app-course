@@ -1,8 +1,0 @@
-# 設定ファイル
-
-[interaction]
-timeout      : 60
-dialog       : 1
-
-[google]
-key     : AIzaSyA8cRp9g7b9AIXjNv7gqefx_U6iRCfqKH4
