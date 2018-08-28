@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="samplespeechreco-705ef5">
+ <names>
+  <name lang="en_US">SampleSpeechReco</name>
+ </names>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName=""/>
+ </contents>
+</package>
