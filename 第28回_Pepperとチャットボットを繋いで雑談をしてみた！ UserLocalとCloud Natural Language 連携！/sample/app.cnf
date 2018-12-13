@@ -1,0 +1,11 @@
+# 設定ファイル
+
+[interaction]
+timeout      : 60
+dialog       : 1
+
+[userlocal]
+token     : 
+
+[gcp]
+token     : 

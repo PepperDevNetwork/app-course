@@ -1,0 +1,108 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>e9dbb7a8-560b-47c6-8400-e181d4e9fd2b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>sample</Name>
+    <RootNamespace>sample</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="dialog\" />
+    <Folder Include="dialog\interaction\" />
+    <Folder Include="html\" />
+    <Folder Include="html\audio\" />
+    <Folder Include="html\css\" />
+    <Folder Include="html\images\" />
+    <Folder Include="html\images\preloads\" />
+    <Folder Include="html\js\" />
+    <Folder Include="translations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.cnf" />
+    <Content Include="behavior.xar" />
+    <Content Include="dialog\interaction\interaction.dlg" />
+    <Content Include="dialog\interaction\interaction_jpj.top" />
+    <Content Include="html\audio\bgm.ogg" />
+    <Content Include="html\audio\se_btn_touched.ogg" />
+    <Content Include="html\audio\se_quiz_failure.ogg" />
+    <Content Include="html\audio\se_quiz_start.ogg" />
+    <Content Include="html\audio\se_quiz_success.ogg" />
+    <Content Include="html\audio\se_recognize_end.ogg" />
+    <Content Include="html\audio\se_recognize_start.ogg" />
+    <Content Include="html\css\app.css" />
+    <Content Include="html\css\default.css" />
+    <Content Include="html\css\reset.css" />
+    <Content Include="html\images\preloads\bg_common.png" />
+    <Content Include="html\images\preloads\bg_splash.png" />
+    <Content Include="html\index.html" />
+    <Content Include="html\js\adjust.js" />
+    <Content Include="html\js\contents.js" />
+    <Content Include="html\js\tapper.js" />
+    <Content Include="html\js\tapper_audio.js" />
+    <Content Include="html\js\tapper_preview.js" />
+    <Content Include="manifest.xml" />
+    <Content Include="Sample.pml" />
+    <Content Include="translations\translation_ja_JP.qm" />
+    <Content Include="translations\translation_ja_JP.ts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

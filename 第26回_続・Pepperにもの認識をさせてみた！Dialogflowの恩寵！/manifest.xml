@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.0" uuid="026-6c6474">
+ <names>
+  <name lang="en_US">.lastUploadedChoregrapheBehavior</name>
+  <name lang="en_US-x-scrald">.lastUploadedChoregrapheBehavior</name>
+ </names>
+ <supportedLanguages>
+  <language>ja_JP</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>ja_JP</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <dialogContent typeVersion="1.0" topicName=""/>
+ </contents>
+</package>
